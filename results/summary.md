@@ -7,7 +7,7 @@ Seeds 1 to 10, generator settings {'users': 2000, 'jobs': 30, 'promoted': 10, 'c
 | method | credited / caused | precision | recall |
 | --- | --- | --- | --- |
 | period share | 3.35 (3.06 to 3.98) | 29.2% (24.4% to 32.0%) | 97.2% (95.5% to 99.5%) |
-| windows in arrival order (click 7d, view 24h) | 1.43 (1.31 to 1.62) | 70.8% (64.0% to 78.0%) | 93.7% (91.5% to 98.3%) |
+| windows in arrival order (click 7d, view 24h) | 1.43 (1.31 to 1.62) | 65.6% (58.2% to 70.3%) | 93.7% (91.5% to 98.3%) |
 | attribute (click 7d, view 24h) | 1.44 (1.32 to 1.57) | 69.8% (63.6% to 75.9%) | 100.0% (100.0% to 100.0%) |
 
 ## Length of the view window (click window fixed at 7 days)

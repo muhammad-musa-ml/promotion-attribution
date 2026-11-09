@@ -1,69 +1,69 @@
 seed,method,credited,correct,caused,precision,recall
 1,period share,605,168,176,0.2777,0.9545
-1,"windows in arrival order (click 7d, view 24h)",261,179,176,0.6858,0.9261
+1,"windows in arrival order (click 7d, view 24h)",261,163,176,0.6245,0.9261
 1,"attribute (click 7d, view off)",120,120,176,1.0000,0.6818
 1,"attribute (click 7d, view 1h)",126,120,176,0.9524,0.6818
 1,"attribute (click 7d, view 6h)",160,137,176,0.8562,0.7784
 1,"attribute (click 7d, view 24h)",259,176,176,0.6795,1.0000
 1,"attribute (click 7d, view 72h)",414,176,176,0.4251,1.0000
 2,period share,585,187,190,0.3197,0.9842
-2,"windows in arrival order (click 7d, view 24h)",260,189,190,0.7269,0.9211
+2,"windows in arrival order (click 7d, view 24h)",260,175,190,0.6731,0.9211
 2,"attribute (click 7d, view off)",128,128,190,1.0000,0.6737
 2,"attribute (click 7d, view 1h)",131,128,190,0.9771,0.6737
 2,"attribute (click 7d, view 6h)",167,148,190,0.8862,0.7789
 2,"attribute (click 7d, view 24h)",265,190,190,0.7170,1.0000
 2,"attribute (click 7d, view 72h)",412,190,190,0.4612,1.0000
 3,period share,573,164,168,0.2862,0.9762
-3,"windows in arrival order (click 7d, view 24h)",235,165,168,0.7021,0.9226
+3,"windows in arrival order (click 7d, view 24h)",235,155,168,0.6596,0.9226
 3,"attribute (click 7d, view off)",117,117,168,1.0000,0.6964
 3,"attribute (click 7d, view 1h)",120,117,168,0.9750,0.6964
 3,"attribute (click 7d, view 6h)",145,130,168,0.8966,0.7738
 3,"attribute (click 7d, view 24h)",245,168,168,0.6857,1.0000
 3,"attribute (click 7d, view 72h)",406,168,168,0.4138,1.0000
 4,period share,598,169,174,0.2826,0.9713
-4,"windows in arrival order (click 7d, view 24h)",269,185,174,0.6877,0.9828
+4,"windows in arrival order (click 7d, view 24h)",269,171,174,0.6357,0.9828
 4,"attribute (click 7d, view off)",107,107,174,1.0000,0.6149
 4,"attribute (click 7d, view 1h)",110,107,174,0.9727,0.6149
 4,"attribute (click 7d, view 6h)",147,125,174,0.8503,0.7184
 4,"attribute (click 7d, view 24h)",258,174,174,0.6744,1.0000
 4,"attribute (click 7d, view 72h)",426,174,174,0.4085,1.0000
 5,period share,640,156,161,0.2437,0.9689
-5,"windows in arrival order (click 7d, view 24h)",261,167,161,0.6398,0.9441
+5,"windows in arrival order (click 7d, view 24h)",261,152,161,0.5824,0.9441
 5,"attribute (click 7d, view off)",102,102,161,1.0000,0.6335
 5,"attribute (click 7d, view 1h)",104,102,161,0.9808,0.6335
 5,"attribute (click 7d, view 6h)",142,118,161,0.8310,0.7329
 5,"attribute (click 7d, view 24h)",253,161,161,0.6364,1.0000
 5,"attribute (click 7d, view 72h)",420,161,161,0.3833,1.0000
 6,period share,633,184,191,0.2907,0.9634
-6,"windows in arrival order (click 7d, view 24h)",263,189,191,0.7186,0.9372
+6,"windows in arrival order (click 7d, view 24h)",263,179,191,0.6806,0.9372
 6,"attribute (click 7d, view off)",127,127,191,1.0000,0.6649
 6,"attribute (click 7d, view 1h)",129,127,191,0.9845,0.6649
 6,"attribute (click 7d, view 6h)",157,140,191,0.8917,0.7330
 6,"attribute (click 7d, view 24h)",266,191,191,0.7180,1.0000
 6,"attribute (click 7d, view 72h)",430,191,191,0.4442,1.0000
 7,period share,576,182,188,0.3160,0.9681
-7,"windows in arrival order (click 7d, view 24h)",247,178,188,0.7206,0.9149
+7,"windows in arrival order (click 7d, view 24h)",247,172,188,0.6964,0.9149
 7,"attribute (click 7d, view off)",131,131,188,1.0000,0.6968
 7,"attribute (click 7d, view 1h)",134,131,188,0.9776,0.6968
 7,"attribute (click 7d, view 6h)",168,148,188,0.8810,0.7872
 7,"attribute (click 7d, view 24h)",264,188,188,0.7121,1.0000
 7,"attribute (click 7d, view 72h)",418,188,188,0.4498,1.0000
 8,period share,607,179,184,0.2949,0.9728
-8,"windows in arrival order (click 7d, view 24h)",272,192,184,0.7059,0.9565
+8,"windows in arrival order (click 7d, view 24h)",272,176,184,0.6471,0.9565
 8,"attribute (click 7d, view off)",112,112,184,1.0000,0.6087
 8,"attribute (click 7d, view 1h)",115,112,184,0.9739,0.6087
 8,"attribute (click 7d, view 6h)",148,124,184,0.8378,0.6739
 8,"attribute (click 7d, view 24h)",265,184,184,0.6943,1.0000
 8,"attribute (click 7d, view 72h)",431,184,184,0.4269,1.0000
 9,period share,645,192,199,0.2977,0.9648
-9,"windows in arrival order (click 7d, view 24h)",281,199,199,0.7082,0.9347
+9,"windows in arrival order (click 7d, view 24h)",281,186,199,0.6619,0.9347
 9,"attribute (click 7d, view off)",134,134,199,1.0000,0.6734
 9,"attribute (click 7d, view 1h)",136,134,199,0.9853,0.6734
 9,"attribute (click 7d, view 6h)",164,145,199,0.8841,0.7286
 9,"attribute (click 7d, view 24h)",283,199,199,0.7032,1.0000
 9,"attribute (click 7d, view 72h)",444,199,199,0.4482,1.0000
 10,period share,595,185,186,0.3109,0.9946
-10,"windows in arrival order (click 7d, view 24h)",246,192,186,0.7805,0.9301
+10,"windows in arrival order (click 7d, view 24h)",246,173,186,0.7033,0.9301
 10,"attribute (click 7d, view off)",117,117,186,1.0000,0.6290
 10,"attribute (click 7d, view 1h)",118,117,186,0.9915,0.6290
 10,"attribute (click 7d, view 6h)",151,134,186,0.8874,0.7204

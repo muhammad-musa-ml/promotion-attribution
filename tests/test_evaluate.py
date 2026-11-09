@@ -16,8 +16,11 @@ def test_score_by_hand():
 
 
 def test_a_repeated_credit_lowers_precision_but_not_recall():
-    s = score([credit("a"), credit("a", "y"), credit("b")], CAUSED)
-    assert s["credited"] == 3 and s["precision"] == 1.0 and s["recall"] == 0.5
+    once = score([credit("a"), credit("b")], CAUSED)
+    twice = score([credit("a"), credit("a", "y"), credit("b")], CAUSED)
+    assert once["precision"] == 1.0 and once["recall"] == 0.5
+    assert twice["credited"] == 3 and twice["precision"] == 2 / 3
+    assert twice["recall"] == once["recall"]
 
 
 def test_nothing_credited_has_no_precision():

@@ -26,18 +26,18 @@ def score(credits, caused):
     """Compare credits with the pairs that applied because of the promotion.
 
     credited counts credit entries, so a repeated application counts twice.
-    precision is the share of entries that are caused pairs; recall is the
-    share of caused pairs credited at least once.
+    correct is the number of caused pairs credited at least once. precision
+    is correct over entries, so a second credit for the same pair counts
+    against it; recall is correct over caused pairs.
     """
     entries = len(credits)
-    correct = sum((c.user_id, c.job_id) in caused for c in credits)
-    covered = len({(c.user_id, c.job_id) for c in credits} & caused)
+    correct = len({(c.user_id, c.job_id) for c in credits} & caused)
     return {
         "credited": entries,
         "correct": correct,
         "caused": len(caused),
         "precision": correct / entries if entries else None,
-        "recall": covered / len(caused) if caused else None,
+        "recall": correct / len(caused) if caused else None,
     }
 
 
