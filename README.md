@@ -14,7 +14,7 @@ A number shown to an employer is only useful if the rule behind it is stated and
 
 ## Run
 
-Python 3.10 or later, standard library only (pytest for the tests).
+Python, standard library only (pytest for the tests). I ran it on Python 3.13.
 
 ```
 python -m pytest
@@ -44,7 +44,7 @@ Length of the view window, click window fixed at 7 days:
 
 `credited / caused` is credit entries divided by the applications the generator made because of a promotion. Above 1.00 the report claims more than the promotions caused.
 
-- Crediting every applicant who applied to a promoted job during the promotion (`period share`) claimed about 3.4 times the caused applications, and 29% of its credits were right.
+- Crediting every applicant who applied to a promoted job during the promotion (`period share`) claimed about 3.3 times the caused applications, and 29% of its credits were right.
 - Applying the same windows in one pass over the log in arrival order (`arrival_order`) found 93.7% of the caused applicants, against 100% for the sorted version, and had lower precision (65.6% against 69.8%). It credits a repeated application once per copy.
 - The view window moves the total more than anything else. With view credit off, every credit is right and a third of the caused applicants are missed; at 24 hours all of them are found and 30% of the credits are wrong; at 72 hours the total is 2.3 times the caused count.
 
