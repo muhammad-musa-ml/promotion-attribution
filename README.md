@@ -62,4 +62,4 @@ Length of the view window, click window fixed at 7 days:
 - `promoattr/baselines.py`: `period_share` and `arrival_order`.
 - `promoattr/generate.py`: seeded generator with the cause of each application.
 - `promoattr/evaluate.py`: scoring, the view-window sweep, the results files.
-- `tests/`: 32 tests.
+- `tests/`: 35 tests.

@@ -41,6 +41,11 @@ def test_arrival_order_lets_a_late_older_click_replace_a_newer_one():
     assert len(attribute(events, PROMOS).credits) == 1
 
 
+def test_arrival_order_does_not_credit_a_touch_dated_after_the_application():
+    events = [clk("c", "u", 2 * HOUR), app("a", "u", HOUR)]
+    assert arrival_order(events, PROMOS) == []
+
+
 def test_arrival_order_agrees_when_the_log_is_clean_and_in_order():
     events = [clk("c", "u", 0), app("a", "u", HOUR)]
     assert [(c.user_id, c.kind) for c in arrival_order(events, PROMOS)] == [("u", "click")]

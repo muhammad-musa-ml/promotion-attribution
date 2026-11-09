@@ -77,6 +77,16 @@ def test_two_applications_to_one_job_credit_once():
     assert [c.apply_event_id for c in r.credits] == ["a1"]
 
 
+def test_a_later_touch_arriving_first_does_not_hide_an_earlier_one():
+    events = [clk("late", "u", 2 * HOUR), clk("early", "u", 0), app("a", "u", HOUR)]
+    assert credited(events) == [("u", "j1", "p1", "click")]
+
+
+def test_the_first_application_counts_even_when_the_second_arrives_first():
+    events = [app("a2", "u", 2 * HOUR), app("a1", "u", HOUR), clk("c", "u", 0)]
+    assert [c.apply_event_id for c in attribute(events, PROMOS).credits] == ["a1"]
+
+
 def test_repeated_event_ids_are_counted_once():
     events = [clk("c", "u", 0), clk("c", "u", 0), app("a", "u", HOUR), app("a", "u", HOUR)]
     r = attribute(events, PROMOS)
